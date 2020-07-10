@@ -1,0 +1,108 @@
+<!DOCTYPE html><!--21961102_정지은-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>welcome to myshop</title>
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/work.css">
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <section id="top">
+        <div class="nv">
+          <a id="logo" href="index.html"><img src="./img/logo.png" alt="logo"></a>
+          <ul class="left">
+            <li><a href="./work.html">Work</li>
+            <li><a href="./shop.html">Shop</li>
+          </ul>
+        </div>
+        <ul class="right">
+          <li><a href="./#"><img src="./img/search.png" alt="search"></li>
+          <li><a href="./cart.html">Cart</li>
+          <li class="nav_log"><a href="./login.html">Login</a></li>
+        </ul>
+      </section>
+      <div class="clear"></div>
+    </header>
+    <!-- main -->
+    <section id="main">
+      <h2>Login</h2>
+      <br><br><br><br><br>
+      <form>
+        <table class="form">
+          <tr>
+            <td >ID</td>
+            <td><input class="input" type="text" placeholder="아이디를 입력하세요"></td>
+          </tr>
+          <tr>
+            <td>PW</td>
+            <td><input class="input" type="password" placeholder="비밀번호를 입력하세요"></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="login_button2">로그인 상태 유지<input type="checkbox" name="hobby1">
+              <p class="found">아이디/비밀번호 찾기</p></td>
+          </tr>
+          <tr>
+            <td colspan="2"><center><br><br><button type="button" class="login_button" onclick="location.href='./index.html'">로그인 하기
+            </button></center></td>
+          </tr>
+          <tr class="sns">
+            <td colspan="2">
+            <a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Finfo"><img src="./img/kakao.png" width="40px"></a>
+            <a href="https://ko-kr.facebook.com/login/"><img src="./img/fb.png" width="40px"></a>
+            <a href="https://www.instagram.com/accounts/login/?hl=ko"><img src="./img/insta.png" width="40px"></a>
+            <a href="https://accounts.google.com/ServiceLogin?service=CPanel"><img src="./img/google.png" width="40px"></a>
+          </td>
+          </tr>
+        </table>
+     </form>
+    </section>
+
+    <!-- footer -->
+    <footer>
+      <section id="sub">
+          <h5>알림받기</h5>
+          <div class="input">
+            <input type="email" data-ref="email" name="email"  placeholder="이메일 주소">
+          </div>
+          <div class="sub_ex">
+            제품, 스토어, 이벤트 등의 새로 올라온 콘텐츠 소식을 받고 싶습니다.
+          </div>
+      </section>
+      <section id="link">
+        <div class="qa">
+          <h5>문의하기</h5>
+          <ul>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">이용 약관</a></li>
+            <li><a href="#">개인정보 정책</a></li>
+          </ul>
+        </div>
+        <div class="sns">
+          <h5>소셜</h5>
+          <ul>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.kakaocorp.com/">Kakao</a></li>
+          </ul>
+        </div>
+        <div class="add">
+          <h5>주소</h5>
+          <span>경기도 의왕시 내손동 계원대학로 66 KR</span>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+           <script>
+             AOS.init({
+               offset:400,
+               duration:1000
+             });
+           </script>
+
+  </body>
+</html>

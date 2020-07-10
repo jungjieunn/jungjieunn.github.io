@@ -1,0 +1,135 @@
+/* 21961102_정지은 */
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:"맑은 고딕","돋움";
+  font-size:15px;
+  color:#444444;
+}
+ul{
+  list-style-type:none;
+}
+a:link, a:active{
+  text-decoration:none;
+  color:#141414;
+}
+a:visited{
+  text-decoration:none;
+  color:#141414;
+}
+a:hover{
+  text-decoration:none;
+  color:#07a829;
+}
+.clear{
+  clear:both;
+}
+/* ------ header ------ */
+section #main{
+  margin-top:70px;
+}
+header{
+  width: 100%;
+  height:70px;
+  border-bottom: solid 1px #c4c4c4;
+  position:fixed;
+  top: 0;
+  left:0;
+  background-color: rgba( 255, 255, 255, 0.8 );
+  padding:0 15px;
+}
+header .nv{
+  display: flex;
+}
+header #top{
+  font-size : 100%;
+  margin:0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header #logo{
+  /*float:left;*/
+  margin: 13px 20px 20px 50px;
+}
+header .left{
+  /*float:left;*/
+  font-size : 14px;
+  color:#07a829;
+  margin: 18px 20px 20px 20px;
+}
+header .left li{
+  display:inline-block;
+  padding: 10px 15px 10px 15px;
+}
+header .right{
+  /*float:right;*/
+  font-size : 14px;
+  margin: 10px 50px 20px 20px;
+  color:#191919;
+  text-align: right;
+}
+header .right li{
+  display:inline-block;
+  padding:13px;
+}
+
+/* ------ footer ------ */
+footer{
+  height:200px;
+  margin-top:20px;
+  border-top:solid 1px #c4c4c4;
+  background-color: rgba( 255, 255, 255, 0.8 );
+  width:100%;
+  height: 300px;
+  position:relative;
+  bottom:0;
+  left:0;
+}
+footer #sub{
+  float:left;
+  color:#666;
+  margin: 0 0 20px;
+  padding: 0 20px 0 180px;
+  width: 42%;
+}
+footer #sub h5{
+  font-weight:normal;
+  font-size:14px;
+  line-height: 1.6;
+}
+footer #sub input{
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-weight: normal;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  color: #333;
+  height: 40px;
+  transition: all 200ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+footer #sub .input{
+  margin-bottom: 30px;
+  padding-top: 20px;
+  margin: 0 0 30px;
+}
+footer h5{
+  color: #666;
+  padding: 20px 0 30px;
+}
+footer #link .qa{
+  float:left;
+}
+footer #link li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding: 0 0 30px;
+}
+footer #link .sns{
+  float:left;
+  padding: 0 100px;
+}

@@ -1,0 +1,58 @@
+/* 21961102_정지은 */
+.form td{
+  border-style : hidden;
+  border-collapse : collapse;
+  padding:5px;
+}
+.input{
+  width:300px;
+  height: 23px;
+}
+.login_button{
+  background-color: #07a829;
+  text-align: center;
+  width: 340px;
+  height: 30px;
+  border-radius:5px;
+  color:white;
+  line-height: 200%
+}
+.login_button2{
+  padding:0px;
+  margin: 0px;
+  font-size: 10px;
+}
+.found{
+  margin:5px 0;
+  float: right;
+}
+.line2{
+  border:solid 1px #d8d3c5;
+}
+.box{
+    display:inline-block;
+    width:150px;
+    height:75px;
+    margin:10px;
+}
+h2{
+  text-align: center;
+  margin-top: 150px;
+  font-size: 32px;
+}
+.form input{
+  border-top: solid 0px;
+  border-left: solid 0px;
+  border-right: solid 0px;
+  border-bottom: solid 2px #07a829;
+}
+.form{
+  margin-left: 650px;
+  margin-top: 50px;
+  margin-bottom:200px;
+  border-radius:30px;
+  padding
+}
+.sns img{
+  padding: 20px;
+}

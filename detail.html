@@ -1,0 +1,164 @@
+<!DOCTYPE html><!--21961102_정지은-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>welcome to myshop</title>
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/work.css">
+    <link rel="stylesheet" type="text/css" href="./css/detail.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <section id="top">
+        <div class="nv">
+          <a id="logo" href="index.html"><img src="./img/logo.png" alt="logo"></a>
+          <ul class="left">
+            <li><a href="./work.html">Work</li>
+            <li><a href="./shop.html">Shop</li>
+          </ul>
+        </div>
+        <ul class="right">
+          <li><a href="./#"><img src="./img/search.png" alt="search"></li>
+          <li><a href="./cart.html">Cart</li>
+          <li class="nav_log"><a href="./login.html">Login</a></li>
+        </ul>
+      </section>
+      <div class="clear"></div>
+    </header>
+    <!-- main -->
+    <section id="main">
+      <aside id="left">
+        <div id="cat_title">
+          Shop
+        </div>
+        <ul>
+          <li></li>
+          <li class="position"><a href="shop.html">best</a></li>
+          <li><a href="#">기획</a></li>
+          <li><a href="#">디자인</a></li>
+          <li><a href="#">영상</a></li>
+          <li><a href="#">3D</a></li>
+          <li><a href="#">웹표준퍼블리싱</a></li>
+        </ul>
+      </aside>
+
+      <section id="right">
+        <h5>기발한 아이디어가 담긴 기획서<span> <b>| ₩ 300,000</b></span></h5>
+        <section id="summary">
+            <section id="summary1">
+            <div class="image">
+              <img src="./img/idea.png" width="500px">
+            </div>
+            <div class="buttons">
+              <img src="./img/btn_pre.gif">
+              <img src="./img/btn_show_big.gif">
+              <img src="./img/btn_next.gif">
+            </div>
+          </section> <!-- section summary1 -->
+          <section id="summary2">
+            <div class="item">
+              <ul>
+                <li>
+                  <div class="col1">판매가</div>
+                  <div class="col2">279,000 원</div>
+                  <div class="clear"></div>
+                </li>
+                <li>
+                  <div class="col1">제조사</div>
+                  <div class="col2">젠틀몬스터</div>
+                  <div class="clear"></div>
+                </li>
+                <li>
+                  <div class="col1">특징</div>
+                  <div class="col2">원하는 사이즈로 제작 가능</div>
+                  <div class="clear"></div>
+                </li>
+                <li>
+                  <div class="col1">수량</div>
+                  <div class="col2"><input type="text"></div>
+                  <div class="clear"></div>
+                </li>
+                <li>
+                  <div class="col1">색상</div>
+                  <div class="col2">
+                    <select>
+                      <option>== 옵션 선택 ==</option>
+                      <option>Black</option>
+                      <option>Red(품절)</option>
+                    </select>
+                  </div>
+                  <div class="clear"></div>
+                </li>
+              </ul>
+            </div> <!-- item -->
+            <ul class="size">
+              <li>
+                <div class="col1">주문 사이즈</div>
+                <div class="col2">
+                  <input type="text"> cm
+                </div>
+                <div class="clear"></div>
+              </li>
+              <li>
+                <div class="col1">금액</div>
+                <div class="col2">
+                  <input type="text"> 원
+                </div>
+                <div class="clear"></div>
+              </li>
+            </ul> <!-- size -->
+            <ul class="buttons">
+              <li><img src="img/btn_buy_now.png"></li>
+              <li><img src="img/btn_cart.png"></li>
+            </ul>
+          </section> <!-- section summary2 -->
+          <div class="clear"></div>
+        </section>
+    </section>
+    <!-- footer -->
+    <footer>
+      <section id="sub">
+          <h5>알림받기</h5>
+          <div class="input">
+            <input type="email" data-ref="email" name="email"  placeholder="이메일 주소">
+          </div>
+          <div class="sub_ex">
+            제품, 스토어, 이벤트 등의 새로 올라온 콘텐츠 소식을 받고 싶습니다.
+          </div>
+      </section>
+      <section id="link">
+        <div class="qa">
+          <h5>문의하기</h5>
+          <ul>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">이용 약관</a></li>
+            <li><a href="#">개인정보 정책</a></li>
+          </ul>
+        </div>
+        <div class="sns">
+          <h5>소셜</h5>
+          <ul>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.kakaocorp.com/">Kakao</a></li>
+          </ul>
+        </div>
+        <div class="add">
+          <h5>주소</h5>
+          <span>경기도 의왕시 내손동 계원대학로 66 KR</span>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+           <script>
+             AOS.init({
+               offset:400,
+               duration:1000
+             });
+           </script>
+
+  </body>
+</html>
