@@ -1,4 +1,63 @@
 /* 21961102_정지은 */
+section#main {
+margin-top:70px;
+}
+aside#left {
+  width:215px;
+  float:left;
+  margin:80px 30px 0px 30px;
+  font-weight:bold;
+}
+aside#left #cat_title {
+  margin-left :30px;
+  padding-bottom:10px;
+  border-bottom:solid 3px #191919;
+  color:#191919;
+  font-size: 32px;
+}
+.position{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 25px;
+  padding-left:0;
+  color:#07a829;
+}
+aside#left li {
+  color:#666666;
+  padding:15px 0 7px 30px;
+}
+
+#plan{
+  padding-top: 80px;
+}
+#plan h5 {
+  font-size: 32px;
+  padding-left:373px;
+}
+#plan h5 span{
+  font-size:15px;
+  font-weight: normal;
+  padding-left: 20px;
+}
+
+.cont{
+  padding-top:100px;
+  padding-left:100px;
+  padding-bottom: 200px;
+  display: flex;
+}
+.cont p{
+  line-height: 1.8;
+  width: 450px;
+}
+.cont_left{
+  margin-right:50px;
+}
+.download{
+  margin-top:80px;
+  margin-right: 10px;
+}
+
 #right h5 {
   font-size: 32px;
   padding-top: 80px;
